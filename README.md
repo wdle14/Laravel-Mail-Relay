@@ -29,14 +29,14 @@ bower install admin-lte
 
 ### Configiration
 1. Login admin Panel
-<img src="https://i.ibb.co/kD3B3sw/login.png" alt="License">
+<br><img src="https://i.ibb.co/kD3B3sw/login.png" alt="License">
 
 ```bash
 user : root@x.local
 pass : password
 ```
 2. first, you have to add api token on admin page
-<img src="https://i.ibb.co/Y2sFmm6/token.png" alt="License">
+<br><img src="https://i.ibb.co/Y2sFmm6/token.png" alt="License">
 
 ```bash
 http://localhost/mail_relay/public/tokens
