@@ -47,13 +47,17 @@ http://localhost/mail_relay/public/tokens
 {{base_url}}/api/service/mail/send
 ```
 <b>Authorization</b> Bearer Token
-<b>Token</b> <p>`token`</p>
+
+<b>Token</b> `<token>`
 
 <b>Body</b> form-data
 
 <b>APP_NAME</b> Aplication Name
+
 <b>MAIL_TO</b> example@sampel.com
+
 <b>SUBJECT</b> Information
+
 <b>BODY</b> `<b> Data Body Mail </b>`
 
 ### Docker Envinronment
