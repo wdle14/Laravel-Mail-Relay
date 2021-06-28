@@ -40,7 +40,7 @@ pass : password
 <br><img src="https://i.ibb.co/Y2sFmm6/token.png" alt="License">
 
 ```bash
-http://localhost/mail_relay/public/tokens
+http://localhost/{{project-dir}}/public/tokens
 
 ```
 ### API Documentation
