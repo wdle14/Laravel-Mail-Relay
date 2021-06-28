@@ -19,6 +19,7 @@ This Mail Realy API functions to send email from 3rd parties using the Rest API.
 3. set the mail SMTP connection '.env' file
 4. run `php artisan migrate`
 5. run `php artisan db:seed`
+6. run `php artisan queue:listen`
 
 ### Add a new Resource
 Install Bower Component. Goto `Public` Document
