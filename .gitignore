@@ -3,6 +3,8 @@
 /public/storage
 /public/bower_components
 /storage/*.key
+/storage/*.conf
+/storage/*.pid
 /vendor
 .env
 .env.backup
