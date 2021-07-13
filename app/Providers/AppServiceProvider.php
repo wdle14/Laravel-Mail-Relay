@@ -28,5 +28,8 @@ class AppServiceProvider extends ServiceProvider
         //
         Schema::defaultStringLength(191);
         Blade::withoutComponentTags();
+          if (config('app.env') !== 'local') {
+            $url->forceScheme('https');
+        }
     }
 }
