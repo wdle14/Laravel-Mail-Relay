@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(UrlGenerator $url)
     {
-        resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
+        // resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
         Schema::defaultStringLength(191);
         Blade::withoutComponentTags();
         // if (config('app.env') !== 'local') {
