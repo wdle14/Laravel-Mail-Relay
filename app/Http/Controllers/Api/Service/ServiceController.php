@@ -17,6 +17,7 @@ class ServiceController extends Controller
         try{
             $details['APP_NAME'] = $request->input('APP_NAME');
             $details['MAIL_TO'] =  $request->input('MAIL_TO');
+            $details['MAIL_CC'] =  $request->input('MAIL_CC',null);
             $details['SUBJECT'] =  $request->input('SUBJECT');
             $details['BODY'] = $request->input('BODY');    
             dispatch(new \App\Jobs\SendMailJob($details));
