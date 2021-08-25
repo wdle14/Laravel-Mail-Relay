@@ -33,6 +33,9 @@ class SendMailJob implements ShouldQueue
     public function handle()
     {
         $email = new \App\Mail\SendMail($this->details);
+        if($this->details['MAIL_CC'])        
+            Mail::to($this->details['MAIL_TO'])->cc($this->details['MAIL_CC'])->send($email);
         Mail::to($this->details['MAIL_TO'])->send($email);
+
     }
 }
