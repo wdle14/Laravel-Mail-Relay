@@ -19,7 +19,7 @@
         "laravel/ui": "^2.4",
         "laravelcollective/html": "^6.2",
         "predis/predis": "^1.1",
-        "symfony/console": "4.4.26",
+        "symfony/console": "^5.0",
         "swooletw/laravel-swoole": "^2.10"        
     },
     "require-dev": {
