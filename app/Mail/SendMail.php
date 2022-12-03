@@ -32,6 +32,7 @@ class SendMail extends Mailable
     {
         return $this->from(env('MAIL_FROM_ADDRESS'),$this->header['APP_NAME'])
                      ->subject($this->header['SUBJECT'])
+                     ->to($this->header['MAIL_TO'],'test')
                      ->with([
                          'body' => $this->header['BODY']
                      ])
